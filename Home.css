@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css?family=Audiowide');
+
+
+.first {
+  background-image: url('Images/Home_9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -5cm;
+  height: 100vh;
+}
+
+.contact_us {
+  background-image: url('Images/Home_9.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -5cm;
+  height: 50vh;
+}
+
+/* .title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-top: 30vh;
+} */
+
+.main-events, .Projects {
+  width: 100%;
+  height: 400px;
+  position: relative;
+  margin-bottom: 1px;
+}
+.main-events .background {
+  background-image: url(Images/Home_7.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+ .main-events .title, .Projects .title {
+  text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: calc(5vw + 5vh);
+  line-height: 86%;
+  color: white;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  width: max-content;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 10px black;
+}
+
+.Projects .background {
+  background-image: url(Images/Home_7.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-attachment: fixed;
+}
+    
+.second{
+  background-image: url('Images/Home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -3cm;
+  height: 100vh;
+}
+
+.third {
+  background-image: url('Images/Home.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-position-y: -3cm;
+  height: 100vh;
+}
+.icon-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+
+}
+.juss {
+  overflow-x: hidden;
+  position: relative;
+}
+
+@media all and (min-width: 992px){
+  .navbar{background-color: transparent !important;}
+}
+
+.navbar-nav li span{color: #000;}
+
+@media all and (max-width: 992px){
+  .navbar-nav li a{background-image: linear-gradient(to right, white, white) !important;}
+  .navbar-nav li span{color: #fff !important;}
+  .navbar-nav{
+    display: flex;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none;
+    text-align: center;
+  }
+  .first {
+    background-position-y: 0cm !important;
+  }
+}
+.navbar-toggler{
+  width: 47px;
+  height: 34px;
+  background-color: #000;
+  border:none;
+}
+.navbar-toggler .line{
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+.scrolled{
+  background-color: #000 !important;
+transition: 200ms linear;
+}
+
+
+.navbar-nav li{
+  padding-left: 30px; 
+  padding-right: 30px;
+  font-size: 110%; 
+}
+
+.navbar-nav li a{
+  background-image: linear-gradient(
+    to right,
+   #54b3d6 50%,
+    #000 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav li a:before{
+  content: '';
+  background:#54b3d6;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav li a:hover {
+ background-position: 0;
+ transform: scale(1.3);
+}
+
+.navbar-nav li a:hover::before{
+  width: 100%;
+}
+
+.color li a{
+  background-image: linear-gradient(
+    to right,
+   #22577e 50%,
+    #fff 50%
+  );
+  background-size: 200% 100%;
+  background-position: -100%;
+  display: inline-block;
+  padding: 5px 0;
+  position: relative;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  transition: all 0.3s ease-in-out;
+}
+
+.color li a:before{
+  content: '';
+  background:#22577e;
+  display: block;
+  position: absolute;
+  bottom: -3px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  transition: all 0.3s ease-in-out;
+}
+
+.color li a:hover {
+  background-position: 0;
+  transform: scale(1.3);
+ }
+ 
+ .color li a:hover::before{
+   width: 100%;
+ }
+
+.color li span{color: #fff !important;}
+
+.manasa a:hover {
+  right: 0;
+}
+
+.manasa a{
+  display: flex;
+  color: #fff;
+}
+
+/* .manasa {
+  position:fixed ;
+  bottom: 0%;
+  top: 0%;
+  overflow-y: scroll;
+  height: 100%;
+} */
+.Resources {
+  position: fixed;
+  right: -125px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 170px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  top: 7cm;
+  background-color: #04AA6D;
+}
+
+.Team {
+  position: fixed;
+  right: -85px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  top: 9cm;
+  background-color: #2196F3;
+  
+}
+
+.contact {
+  position: fixed;
+  right: -125px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 170px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  top: 11cm;
+  background-color: #555;
+}
+
+
+.title {
+  background-color: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+}
+
+.main-events .title span {
+  font-family: 'Audiowide', sans-serif ;
+  position: relative;
+  display: inline-block;
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(1s * var(--i))
+}
+
+.Projects .title span {
+  font-family: 'Audiowide', sans-serif ;
+  position: relative;
+  display: inline-block;
+  font-size: 100px;
+  color: #fff;
+  text-transform: uppercase;
+  animation: flip 2s infinite;
+  animation-delay: calc(1s * var(--i))
+}
+@keyframes flip {
+  0%,80% {
+    transform: rotateY(360deg) 
+  }
+}
+
+
