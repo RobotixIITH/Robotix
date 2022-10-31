@@ -1,104 +1,11 @@
 @import url('https://fonts.googleapis.com/css?family=Audiowide');
 
-
-.first {
-  background-image: url('Images/White.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -5cm;
-  height: 100vh;
-}
-
-@media all and (max-width: 1155px){
-  .first {
-    background-image: url('Images/White.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-position-y: -5cm;
-    height: 100vh;
-  }
-}
-
-.contact_us {
-  background-image: url('Images/White.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 50vh;
-}
-
-
-.main-events, .Projects {
-  width: 100%;
-  height: 50vh;
-  position: relative;
-  margin-bottom: 1px;
-}
-.main-events .background {
-  background-image: url(Images/Blue.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  background-attachment: fixed;
-}
- .main-events .title, .Projects .title {
-  text-align: center;
-  font-family: Ubuntu;
-  font-style: normal;
-  font-weight: normal;
-  font-size: calc(5vw + 5vh);
-  line-height: 86%;
-  color: white;
-  position: absolute;
-  left: 50%;
-  top: 50%;
-  width: max-content;
-  transform: translate(-50%, -50%);
-  text-shadow: 0 0 10px black;
-}
-
-.Projects .background {
-  background-image: url(Images/Blue.jpg);
-  background-size: cover;
-  width: 100%;
-  height: 100%;
-  background-attachment: fixed;
-}
-    
-.second{
-  background-image: url('Images/Black.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -3cm;
-  height: 100vh;
-}
-
-.third {
-  background-image: url('Images/Black.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  background-position-y: -3cm;
-  height: 100vh;
-}
-.icon-text{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding-left: 10px;
-
-}
-.juss {
+.Total {
   overflow-x: hidden;
   position: relative;
 }
 
-@media all and (min-width: 992px){
-  .navbar{background-color: transparent !important;}
-}
+@media all and (min-width: 992px) {.navbar{background-color: transparent !important;}}
 
 .navbar-nav li span{color: #000;}
 
@@ -108,15 +15,11 @@
   .navbar-nav{
     display: flex;
     flex-direction: column;
-    padding-left: 0;
-    margin-bottom: 0;
     list-style: none;
     text-align: center;
   }
-  .first {
-    background-position-y: 0cm !important;
-  }
 }
+
 .navbar-toggler{
   width: 47px;
   height: 34px;
@@ -130,8 +33,9 @@
   background-color: #fff;
   margin-bottom: 5px;
 }
+
 .scrolled{
-  background-color: #000 !important;
+background-color: #000 !important;
 transition: 200ms linear;
 }
 
@@ -139,15 +43,11 @@ transition: 200ms linear;
 .navbar-nav li{
   padding-left: 30px; 
   padding-right: 30px;
-  font-size: 110%; 
+  font-size: 120%; 
 }
 
 .navbar-nav li a{
-  background-image: linear-gradient(
-    to right,
-   #54b3d6 50%,
-    #000 50%
-  );
+  background-image: linear-gradient(to right, #54b3d6 50%, #000 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -181,11 +81,7 @@ transition: 200ms linear;
 }
 
 .color li a{
-  background-image: linear-gradient(
-    to right,
-   #22577e 50%,
-    #fff 50%
-  );
+  background-image: linear-gradient(to right, #22577e 50%, #fff 50%);
   background-size: 200% 100%;
   background-position: -100%;
   display: inline-block;
@@ -220,65 +116,66 @@ transition: 200ms linear;
 
 .color li span{color: #fff !important;}
 
-.manasa a:hover {
-  right: 0;
+
+.first {
+  background-image: url('Images/White.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
-.manasa a{
-  display: flex;
-  color: #fff;
+.second{
+  background-image: url('Images/Black.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
 }
 
-/* .manasa {
-  position:fixed ;
-  bottom: 0%;
-  top: 0%;
-  overflow-y: scroll;
-  height: 100%;
-} */
-.Resources {
-  position: fixed;
-  right: -125px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 170px;
-  text-decoration: none;
-  font-size: 20px;
+.third {
+  background-image: url('Images/Black.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 100vh;
+}
+
+.main-events, .Projects {
+  width: 100%;
+  height: 10cm;
+  margin-bottom: 1px;
+}
+.main-events .background {
+  background-image: url(Images/Blue.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 10cm;
+  background-attachment: fixed;
+}
+
+.Projects .background {
+  background-image: url(Images/Blue.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 10cm;
+  background-attachment: fixed;
+}
+
+ .main-events .title, .Projects .title {
+  text-align: center;
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 86%;
   color: white;
-  border-radius: 30px 0 0 30px;
-  top: 7cm;
-  background-color: #04AA6D;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  width: max-content;
+  transform: translate(-50%, -50%);
+  text-shadow: 0 0 10px black;
 }
-
-.Team {
-  position: fixed;
-  right: -85px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 130px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 30px 0 0 30px;
-  top: 9cm;
-  background-color: #2196F3;
-  
-}
-
-.contact {
-  position: fixed;
-  right: -125px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 170px;
-  text-decoration: none;
-  font-size: 20px;
-  color: white;
-  border-radius: 30px 0 0 30px;
-  top: 11cm;
-  background-color: #555;
-}
-
 
 .title {
   background-color: transparent;
@@ -293,7 +190,7 @@ transition: 200ms linear;
   font-family: 'Audiowide', sans-serif ;
   position: relative;
   display: inline-block;
-  font-size: 100px;
+  font-size: 10vw;
   color: #fff;
   text-transform: uppercase;
   animation: flip 2s infinite;
@@ -304,16 +201,129 @@ transition: 200ms linear;
   font-family: 'Audiowide', sans-serif ;
   position: relative;
   display: inline-block;
-  font-size: 100px;
+  font-size: 10vw;
   color: #fff;
   text-transform: uppercase;
   animation: flip 2s infinite;
   animation-delay: calc(1s * var(--i))
 }
-@keyframes flip {
-  0%,80% {
-    transform: rotateY(360deg) 
+
+@keyframes flip {0%,80% {transform: rotateY(360deg)}}
+
+.contact_us {
+  background-image: url('Images/White.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 80vh;
+}
+
+.Side a:hover {right: 0cm;}
+
+.Side a{
+  display: flex;
+  color: #fff;
+}
+
+.icon-text{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10px;
+}
+
+.Resources {
+  position: fixed;
+  right: -125px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 170px;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  top: 7cm;
+  background-color: #04AA6D;
+}
+
+.Team {
+  position: fixed;
+  right: -85px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 130px;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  top: 9cm;
+  background-color: #2196F3;
+  
+}
+
+.contact {
+  position: fixed;
+  right: -125px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 170px;
+  font-size: 20px;
+  color: white;
+  border-radius: 30px 0 0 30px;
+  top: 11cm;
+  background-color: #555;
+}
+
+.head {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+}
+
+@media all and (min-width: 800px){
+
+
+.class1, .class2, .class3 {
+  text-align: center;
+  width: 33.33%;
+  float: left;
+  height: 100px;
+}
+
+
+.Phone  {
+  font-size: 120%;
+  text-align: center;
+}
+
+.Mail {
+  margin-top: 0.2cm;
+  font-size: 110%;
+  text-align: center;
+}
+
+}
+@media all and (max-width: 800px){
+  .class1, .class2, .class3 {
+    text-align: center;
+    background-color: #04AA6D;
+    border-radius: 10px;
+    margin: 1cm;
+  }
+
+  .Phone  {
+    font-size: 120%;
+    text-align: center;
+  }
+  
+  .Mail {
+    margin-top: 0.2cm;
+    font-size: 110%;
+    text-align: center;
   }
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50px;
+}
 
