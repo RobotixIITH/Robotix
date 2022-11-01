@@ -1,3 +1,5 @@
+$(window).scroll(function(){$('nav').toggleClass('scrolled', $(this).scrollTop() > 100);});
+$(window).scroll(function(){$('.navbar-nav').toggleClass('color', $(this).scrollTop() > 100);});
 $(window).scroll(function(){$('.collapse').removeClass ('show', $(this).scrollTop() > 100);});
 $(document).ready(function () {
 $(document).click(function (event) {
@@ -6,3 +8,5 @@ $(document).click(function (event) {
     if (_opened === true && !clickover.hasClass("navbar-toggler")) $("button.navbar-toggler").click();
     });
 });
+
+
