@@ -2,7 +2,7 @@ html{overflow-x:hidden}
 
 @media all and (min-width: 900px) {
   nav {
-    background-color: transparent !important;
+    background-color: #1A1A40;
   }
   .navbar-nav{
     display: flex;

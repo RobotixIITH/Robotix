@@ -169,7 +169,7 @@ transition: 200ms linear;
 }
 
 .Projects .background {
-  background-image: url('Images/Projects\ Background.jpg');
+  background-image: url('Images/Projects\ Background.JPG');
   /* background-color: blue  ; */
   background-size: cover;
   width: 100%;
