@@ -104,7 +104,7 @@ transition: 200ms linear;
 }
 
 .color li a:before{
-  content: '';
+  content: none !important;
   background:#22577e;
   display: block;
   position: absolute;
@@ -162,7 +162,8 @@ transition: 200ms linear;
 .main-events .background {
   background-image: url('Images/Events\ Background.jpg');
   /* background-color: blue  ; */
-  background-size: cover;
+  background-size:cover;
+  background-position: center center;
   width: 100%;
   height: 10cm;
   background-attachment: fixed;
@@ -172,6 +173,7 @@ transition: 200ms linear;
   background-image: url('Images/Projects\ Background.JPG');
   /* background-color: blue  ; */
   background-size: cover;
+  background-position: center center;
   width: 100%;
   height: 10cm;
   background-attachment: fixed;
@@ -225,140 +227,105 @@ transition: 200ms linear;
 
 @keyframes flip {0%,80% {transform: rotateY(360deg)}}
 
-.contact_us {
-  background-image: url('Images/White.jpg');
+.contact_us{
+  background-image: radial-gradient(ellipse at top center, #150050, #000000);
+  color: white;
+  overflow: hidden;
 }
 
-.Side a:hover {right: 0cm;}
-
-.Side a{
+.coordinators {
   display: flex;
-  color: #fff;
+  text-align: center;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.icon-text{
+.heading {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  padding-left: 10px;
+  font-size: 4vw;
+  font-weight: 100;
 }
-
-.Resources {
-  position: fixed;
-  right: -125px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 170px;
-  font-size: 20px;
-  color: white;
-  border-radius: 30px 0 0 30px;
-  top: 7cm;
-  background-color: #04AA6D;
+.heading span{
+  color: red;
+  font-weight: 450 !important;
 }
-
-.Team {
-  position: fixed;
-  right: -85px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 130px;
-  font-size: 20px;
-  color: white;
-  border-radius: 30px 0 0 30px;
-  top: 9cm;
-  background-color: #2196F3;
-  
-}
-
-.contact {
-  position: fixed;
-  right: -125px;
-  transition: 0.3s;
-  padding: 15px;
-  width: 170px;
-  font-size: 20px;
-  color: white;
-  border-radius: 30px 0 0 30px;
-  top: 11cm;
-  background-color: #555;
-}
-
-.head {
-text-align: center;
-font-family: 'Courier New', Courier, monospace;
-}
-
-@media all and (min-width: 800px){
-
-
-.class1, .class2, .class3 {
-  text-align: center;
-  width: 33.33%;
-  float: left;
-  height: 120px;
-  background-image: url(Images/White.jpg);
-  background-size: cover;
-}
-
-
-.Phone  {
-  font-size: 120%;
-  text-align: center;
-}
-
-.Mail {
-  display: block;
-  margin-top: 0.2cm;
-  font-size: 120%;
-  text-align: center;
-}
-
-}
-@media all and (max-width: 800px){
-  .class1, .class2{
-    text-align: center;
-    background-color: wheat;
-    border-radius: 10px;
-    margin: 1cm;
-  }
-
-   .class3 {
-    text-align: center;
-    background-color: wheat;
-    border-radius: 10px;
-    margin-left: 1cm;
-    margin-right: 1cm;
-  }
-
-  .Phone  {
-    font-size: 120%;
-    text-align: center;
-  }
-  
-  .Mail {
-    margin-top: 0.2cm;
-    font-size: 110%;
-    text-align: center;
-  }
-}
-
-@media all and (min-width: 800px){
-.main_mail {
+.GMAIL {
+  display: flex;
+  justify-content: center;
   font-size: 2vw;
-  margin-left: 1%;   
-}
-}
-@media all and (max-width: 800px){
-  .main_mail {
-    font-size: 4vw;  
-  margin-left: 1%;    
+  font-weight: 400;
+  margin-left: 35%;
+  margin-right: 35%;
+  padding-bottom: 1%;
+  padding-top: 1%;
 
+}
+.GMAIL:hover{
+  transition: 0.5s;
+  box-shadow: 0 0 3px 3px red;
+  border: 1px solid red;
+}
+.contact1, .contact2, .contact3{
+  width: 33.333%;
+  float: left;
+  margin-bottom: 10%;
+  margin-left: 7%;
+  margin-right: 7%;
+  padding-bottom: 2%;
+  padding-top: 2%;
+  
+
+}
+.contact1:hover, .contact2:hover, .contact3:hover{
+  transition: 0.5s;
+  box-shadow: 0 0 3px 3px red;
+  border: 1px solid red;
+}
+.name {font-size: 1.5vw;}
+.phno {font-size: 1.1vw;}
+.mail {font-size: 1.1vw;}
+
+@media all and (max-width: 900px){
+  .coordinators {
+    display: block ;
   }
+  .contact1, .contact2{
+    margin-left: 15% ;
+    width: 25% ;
+    transition: 0.5s;
+    box-shadow: 0 0 3px 3px red;
+    border: 1px solid red;
+  }
+  .contact3 {
+    margin-left: 35%;
+    width: 30%;    
+    transition: 0.5s;
+    box-shadow: 0 0 3px 3px red;
+    border: 1px solid red;
+  }
+  .GMAIL {
+    font-size: 4vw;
+    margin-left:10% ;
+    margin-right:10%;
+    margin-bottom: 5%;
+  }
+  .name {font-size: 2.5vw;}
+  .phno {font-size: 1.5vw;}
+  .mail {font-size: 1.5vw;}
+  .heading {font-size: 8vw;}
 }
-.Gmail {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* margin-bottom: 20px; */
+@media all and (max-width: 600px){
 
+  .contact1, .contact2, .contact3{
+    margin-left: 20%;
+    width: 60% !important;
+  }
+  .GMAIL {
+    font-size: 5vw;
+  }
+  .name {font-size: 4vw;}
+  .phno {font-size: 3vw;}
+  .mail {font-size: 3vw;}
+  .heading {font-size: 9vw;}
 }
+

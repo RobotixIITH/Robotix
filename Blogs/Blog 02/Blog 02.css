@@ -173,7 +173,7 @@ body{background-color: #231955 !important;}
 @media all and (min-width: 900px){
   .back{
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
   }
   .image, .text{

@@ -51,7 +51,7 @@ body{background-color: #231955 !important;}
   .navbar-nav{
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
     text-align: center;
   }
@@ -197,12 +197,10 @@ body{background-color: #231955 !important;}
   background-repeat: no-repeat;
   /* background-color: #BCCEF8; */
   cursor: pointer;
-  /* background-blend-mode: color-burn; */
 }
 
 .class1:hover, .class2:hover {
   box-shadow: 0 0 30px 10px rgba(100, 100, 255, 0.5);
-  /* background-color: #ccf; */
 }
 
 .all:hover .shown{
@@ -214,13 +212,12 @@ body{background-color: #231955 !important;}
 .shown {
   padding: 5%;
   font-weight: 300;
-  font-size: 3vw;
+  font-size: 2vw;
   color: #fff;
   transition: all .6s ease;
   width: 100%;
   height: 100%;
   background-color: #303050;
-  /* background-image: radial-gradient(circle at center top , #cce, #33a); */
   border-radius: 10px;
   text-shadow: 0 0 10px rgba(255, 255, 255, .8);
   
@@ -228,6 +225,9 @@ body{background-color: #231955 !important;}
   justify-content: center;
   align-items: center;
   opacity: 1;
+}
+@media all and (max-width: 900px){
+  .shown{font-size: 4vw;}
 }
  .text{
   color: white;
