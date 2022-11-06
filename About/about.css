@@ -268,7 +268,7 @@ transition: 200ms linear;
 .contact1, .contact2, .contact3{
   width: 33.333%;
   float: left;
-  margin-bottom: 10%;
+  margin-bottom: 1%;
   margin-left: 7%;
   margin-right: 7%;
   padding-bottom: 2%;
@@ -291,6 +291,7 @@ transition: 200ms linear;
   }
   .contact1, .contact2{
     margin-left: 15% ;
+    margin-bottom: 10%;
     width: 25% ;
     transition: 0.5s;
     box-shadow: 0 0 3px 3px red;
@@ -298,6 +299,7 @@ transition: 200ms linear;
   }
   .contact3 {
     margin-left: 35%;
+    margin-bottom: 7%;
     width: 30%;    
     transition: 0.5s;
     box-shadow: 0 0 3px 3px red;
