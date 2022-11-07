@@ -119,13 +119,13 @@
     }
 
     .carouse-item__title{
-        color: black !important;
+        color: white !important;
     }
     .carouse-item__description{
-        color: black !important;
+        color: white !important;
     }
     .carouse-item__btn{
-        color: black !important;
+        color: white !important;
     }
 }
 

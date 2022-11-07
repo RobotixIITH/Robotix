@@ -14,6 +14,7 @@
     align-items: center;
     -webkit-align-items: center;
     background-color: #000;
+
 }
 
 .carous {
@@ -168,13 +169,13 @@
     }
 
     .carous-item__title{
-        color: black !important;
+        color: white !important;
     }
     .carous-item__description{
-        color: black !important;
+        color: white !important;
     }
     .carous-item__btn{
-        color: black !important;
+        color: white !important;
     }
 }
 
