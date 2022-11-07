@@ -221,6 +221,9 @@ opacity: 1;
   }
   .first3{height: fit-content !important;}
 }
+@media all and (max-width: 992px){
+  .text_box{width: 100% !important;}
+}
 
 .robotix{
   color: red;
@@ -418,3 +421,18 @@ opacity: 1;
   .heading {font-size: 9vw;}
 }
 
+.social {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.instagram, .facebook, .Linkedin {
+  margin: 30px;
+  /* padding-bottom: 30px; */
+  margin-bottom: 30px;
+}
+.instagram:hover, .facebook:hover, .Linkedin:hover {
+  transition: 0.5s;
+  transform: scale(1.5);
+  /* border: 5px solid red;
+  border-radius: 10px; */
+}

@@ -2,6 +2,10 @@ $(function(){
     $('.carouse-item').eq(0).addClass('active');
     var total = $('.carouse-item').length;
     var current = 0;
+    setInterval(Hi, 2000);
+    function Hi(){
+      $('#moveRight').click();
+    }
     $('#moveRight').on('click', function(){
       var next=current;
       current= current+1;
