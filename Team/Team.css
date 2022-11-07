@@ -1,6 +1,6 @@
 html{overflow-x:hidden}
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 992px) {
   nav {
     background-color: #1A1A40;
   }
@@ -15,7 +15,7 @@ html{overflow-x:hidden}
 
 .navbar-nav li span{color: #000;}
 
-@media all and (max-width: 900px){
+@media all and (max-width: 992px){
   nav {
     background-color: black !important;
   }

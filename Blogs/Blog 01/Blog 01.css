@@ -14,7 +14,7 @@ body{background-color: #231955 !important;}
   padding-top: 3%;
   
 }
-@media all and (min-width: 900px){
+@media all and (min-width: 992px){
   .waviy {
     font-size: 4vw;
   }
@@ -28,7 +28,7 @@ body{background-color: #231955 !important;}
 }
 
 
-@media all and (max-width: 900px){
+@media all and (max-width: 992px){
   .waviy{
     font-size: 7vw;
   }
@@ -53,7 +53,7 @@ body{background-color: #231955 !important;}
   }
 }
 
-@media all and (min-width: 900px) {
+@media all and (min-width: 992px) {
   nav {
     background-color: transparent !important;
   }
@@ -61,7 +61,7 @@ body{background-color: #231955 !important;}
 
 .navbar-nav li span{color: #000;}
 
-@media all and (max-width: 900px){
+@media all and (max-width: 992px){
   nav {
     background-color: black !important;
   }
@@ -169,7 +169,7 @@ body{background-color: #231955 !important;}
   font-size: 1.5vw;
 }
 
-@media all and (min-width: 900px){
+@media all and (min-width: 992px){
   .back{
     display: flex;
     justify-content: center;
@@ -181,7 +181,7 @@ body{background-color: #231955 !important;}
   }
 }
 
-@media all and (max-width: 900px){
+@media all and (max-width: 992px){
   .back{height: fit-content !important;}
   .image, .text {
     display: flex;
