@@ -7,7 +7,7 @@ html{overflow-x:hidden}
   .navbar-nav{
     display: flex;
     width: 100%;
-    justify-content: left;
+    justify-content: center;
     align-items: center;
     text-align: center;
   }

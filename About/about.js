@@ -1,4 +1,4 @@
-$(window).scroll(function(){$('nav').toggleClass('scrolled', $(this).scrollTop() > 100);});
+$(window).scroll(function(){$('nav').toggleClass('scrolled', $(this).scrollTop() > 550);});
 $(window).scroll(function(){$('.navbar-nav').toggleClass('color', $(this).scrollTop() > 100);});
 $(window).scroll(function(){$('.collapse').removeClass ('show', $(this).scrollTop() > 100);});
 $(document).ready(function () {

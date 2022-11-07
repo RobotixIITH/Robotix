@@ -13,6 +13,7 @@
       
       <script src="About/about.js"></script>
       <link rel="stylesheet"  href="About/about.css">
+      <link rel="stylesheet" href="Home.css">
     </head> 
 
     <header>
@@ -28,6 +29,9 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav me-auto mb-2 mb-lg-0" >
+                <li class="nav-item">
+                  <a class="nav-link active" href="#about" aria-current="page" >About</a>
+                </li>
                 <li class="nav-item">
                   <a class="nav-link active" href="Blogs.html" aria-current="page" >Blogs</a>
                 </li>
@@ -46,6 +50,7 @@
                 <li class="nav-item">
                   <a class="nav-link active" href="https://docs.google.com/document/d/1sULk6FGBYPKWGM-C88B9Yos2nbrvWy9N5Z20Fu5MC1c/edit?usp=sharing" aria-current="page" >Resources</a>
                 </li>
+
             </div>
         </div>
       </nav>
@@ -54,24 +59,33 @@
     
     <body>
 
-      <div class="Total">
-        <!-- <div class="Side">
-          <a href="https://docs.google.com/document/d/1sULk6FGBYPKWGM-C88B9Yos2nbrvWy9N5Z20Fu5MC1c/edit?usp=sharing" class="Resources">
-            <img src="Images/Resources.png" style="width:30px;height:30px"></img>
-            <span class="icon-text">Resourses</span>
-          </a>
-          <a href="Team.html" class="Team">
-            <img src="Images/Team.png" style="width:25px;height:25px"></img>
-            <span class="icon-text"> Team</span>
-          </a>
-          <a href="#Contact" class="contact" >
-            <img src="Images/Contact Us.webp" style="width:25px;height:25px"></img>
-            <span class="icon-text"> Contact Us</span>
-          </a>
-        </div> -->
+      <div class="page1">
+        <div class="tophalf" style="opacity:1; transform:translateY(0px);">
+          <div class="tophalfOverlay" style="opacity: 1; ">
+            <div class="mainTitle" style="opacity: 1; transform:translateY(0px); letter-spacing: 15px;">
+              Robotics and automation club
+            </div><br><br><br><br>
+            <div class="subtitle">IIT Hyderabad</div>
+            <a href="#about"><div class="scroll" style="opacity: 1; transform:translateY(0px);"></div></a>
+          </div>
+        </div>
+      </div>
 
-        <div class="first"></div>    
+        <div class="first"></div> 
+        <div class="first2" id="about"></div>
 
+        <div class="first3"id="about">
+          <div class="logo"><img src="Images/hello.png" width="300px" height="300px"></div>
+          <div class="text_about">
+            <span class="about_robotix"><h1 style="padding-top:10px;">ABOUT <span class="robotix">ROBOTIX</span></h1></span>
+            <div class="text_box">Since the first appearance of a robot in a movie in 1927,
+              robots have intrigued us through innumerable appearances in fictional stories in the media, 
+              be it the print or the film.<br><br>
+              The Robotix club IIT Hyderabad is a place where some of the most hardworking individuals
+              strive to achieve perfection in the field of Robotics. The club came up in 2009 and since its formation,
+              it has come a long way in terms of development and technology.</div>
+          </div>
+        </div>
         <div class="main-events" id="events" data-caption-animate="fadeInUp">
           <div class="background">
             <div class="title">  
@@ -104,7 +118,6 @@
 
       <div class="third"></div>
 
-      </div>
       <div class="contact_us" id="contact_us">
         <section class="heading">CONTACT&nbsp; <span>US</span></section>
         <section class="GMAIL">robotix@gymkhana.iith.ac.in</section>
