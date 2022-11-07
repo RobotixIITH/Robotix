@@ -8,12 +8,12 @@
 
       <link rel="icon" href="./Images/favicon.jpeg" sizes="any" type="image/jpeg">
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
       
-      <script src="About/about.js"></script>
       <link rel="stylesheet"  href="About/about.css">
       <link rel="stylesheet" href="Home.css">
+      <link rel="stylesheet" href="Events/events.css">
+      <link rel="stylesheet" href="Projects/projects.css">
+
     </head> 
 
     <header>
@@ -86,7 +86,8 @@
               it has come a long way in terms of development and technology.</div>
           </div>
         </div>
-        <div class="main-events" id="events" data-caption-animate="fadeInUp">
+
+        <div class="main-events"  data-caption-animate="fadeInUp">
           <div class="background">
             <div class="title">  
               <span style="--i:1">E </span>
@@ -99,9 +100,70 @@
           </div>
         </div>
 
-        <div class="second"></div>
+        <div class="events" id="events">
+          <div class="carouse">
+            <div class="carouse__nav">
+             <span id="moveLeft" class="carouse__arrow">
+                  <svg class="carouse__icon" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+          </svg>
+              </span>
+              <span id="moveRight" class="carouse__arrow" >
+                <svg class="carouse__icon"  width="24" height="24" viewBox="0 0 24 24">
+            <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+          </svg>    
+              </span>
+            </div>
+            <div class="carouse-item carouse-item--1">
+              <div class="carouse-item__image"></div>
+              <div class="carouse-item__info">
+                <div class="carouse-item__container">
+                <!-- <h2 class="carouse-item__subtitle">The grand moment</h2> -->
+                <h1 class="carouse-item__title">ROBO SOCCER</h1>
+                <p class="carouse-item__description">Build a robot that can score goals against the oppenent using a table tennis ball in a mini soccer arena </p>
+                <a href="#" class="carouse-item__btn">Know more &#8594</a>
+                  </div>
+              </div>
+            </div>
+            <div class="carouse-item carouse-item--2 ">
+              <div class="carouse-item__image"></div>
+              <div class="carouse-item__info">
+                <div class="carouse-item__container">
+                <!-- <h2 class="carouse-item__subtitle">The big window </h2> -->
+                <h1 class="carouse-item__title">ROBO WAR</h1>
+                <p class="carouse-item__description"></p>
+                <a href="#" class="carouse-item__btn">Know more &#8594</a>
+                  </div>
+              </div>
+            </div>
+              <div class="carouse-item carouse-item--3">
+              <div class="carouse-item__image"></div>
+              <div class="carouse-item__info">
+                <div class="carouse-item__container">
+                <!-- <h2 class="carouse-item__subtitle">Tropical palms </h2> -->
+                <h1 class="carouse-item__title">FOLLOW ME</h1>
+                <p class="carouse-item__description">All participants are given the required components and they have to build a line following robot.</p>
+                <a href="#" class="carouse-item__btn">Know more &#8594</a>
+                  </div>
+              </div>
+            </div>
+            
+             <div class="carouse-item carouse-item--4">
+              <div class="carouse-item__image"></div>
+              <div class="carouse-item__info">
+                <div class="carouse-item__container">
+                <!-- <h2 class="carouse-item__subtitle">Beach </h2> -->
+                <h1 class="carouse-item__title">SESSIONS</h1>
+                <p class="carouse-item__description">Many people take part in the sessions conducted by the club</p>
+                <a href="#" class="carouse-item__btn">Know more &#8594</a>
+                  </div>
+              </div>
+            </div>
+            
+          </div>  
+        </div>
 
-        <div class="Projects" id="projects">
+        <div class="Projects" >
           <div class="background">
             <div class="title">  
               <span style="--i:1">P </span>
@@ -116,7 +178,153 @@
           </div>
         </div>
 
-      <div class="third"></div>
+      <div class="projects" id="projects">
+        <div class="carous">
+          <div class="carous__nav">
+           <span id="moveleft" class="carous__arrow">
+                <svg class="carous__icon" width="24" height="24" viewBox="0 0 24 24">
+            <path d="M20,11V13H8L13.5,18.5L12.08,19.92L4.16,12L12.08,4.08L13.5,5.5L8,11H20Z"></path>
+        </svg>
+            </span>
+            <span id="moveright" class="carous__arrow" >
+              <svg class="carous__icon"  width="24" height="24" viewBox="0 0 24 24">
+          <path d="M4,11V13H16L10.5,18.5L11.92,19.92L19.84,12L11.92,4.08L10.5,5.5L16,11H4Z"></path>
+        </svg>    
+            </span>
+          </div>
+          <div class="carous-item carous-item--1">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <h2 class="carous-item__subtitle">Gesture based Video game controller</h2>
+              <h1 class="carous-item__title">GESTCHA</h1>
+              <p class="carous-item__description">The gyroscope in the glove detects hand's motion  and then sends it to other arduino on bot through bluetooth modules and then motor driver module does it work!!!</p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+          <div class="carous-item carous-item--2 ">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <h2 class="carous-item__subtitle">The Surveillance Robot. </h2>
+              <h1 class="carous-item__title">VIGIL</h1>
+              <p class="carous-item__description">This robot uses the rocker bogie mechanism inspired by NASA's Curiosity Rover. Mounted on top is a rotating camera system for collection of data.</p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+            <div class="carous-item carous-item--3">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Tropical palms </h2> -->
+              <h1 class="carous-item__title">SELF BALANCING BOT</h1>
+              <p class="carous-item__description">It  is based on the principle of Inverted pendulum, which is a two wheel vehicle balances itself up in the vertical position with reference to the ground. It consist both hardware and software implementation.</p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+          
+           <div class="carous-item carous-item--4">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">SWARM ROBOTICS</h1>
+              <p class="carous-item__description">A prototype of Swarm Technology</p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--5">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">BIONIC BIRD</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--6">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">3D PRINTER</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--7">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">AMPHIBIAN BOT</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--8">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">BIPED BOT 1</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--9">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">BIPED BOT 2</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--10">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">DESTRUCTA</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+
+          <div class="carous-item carous-item--11">
+            <div class="carous-item__image"></div>
+            <div class="carous-item__info">
+              <div class="carous-item__container">
+              <!-- <h2 class="carous-item__subtitle">Beach </h2> -->
+              <h1 class="carous-item__title">HOVER CRAFT</h1>
+              <p class="carous-item__description"></p>
+              <a href="#" class="carous-item__btn">Know more &#8594</a>
+                </div>
+            </div>
+          </div>
+          
+        </div>  
+      </div>
+      </div>
 
       <div class="contact_us" id="contact-us">
         <section class="heading">CONTACT&nbsp; <span>US</span></section>
@@ -141,4 +349,12 @@
       </div>
     </div>
     </body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="Projects/projects.js"></script>
+    <script src="Events/events.js"></script>
+    <script src="About/about.js"></script>
+  
+
+
 </html>

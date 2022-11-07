@@ -219,22 +219,14 @@ opacity: 1;
   color: red;
 }
 
-.second{
+.events{
   position: relative;
-  background-color: pink;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
+  height: 100vh !important;
 }
 
-.third {
+.projects{
   position: relative;
-  background-color: pink;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  height: 100vh;
+  height: 100vh !important;
 }
 
 .main-events, .Projects {
